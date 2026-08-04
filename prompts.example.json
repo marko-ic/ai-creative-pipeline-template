@@ -1,0 +1,23 @@
+{
+  "brand": "Your Brand",
+  "product": "Service or product this run advertises",
+  "notes": "One entry per concept. `template_number` is the sort key. Keep the visual-system preamble identical across every prompt — that shared prefix is what makes a set look like one campaign instead of N unrelated images.",
+  "prompts": [
+    {
+      "template_number": 1,
+      "template_name": "ad-hero-typographic",
+      "aspect_ratio": "4:5",
+      "needs_product_images": false,
+      "intended_use": "Top of funnel. One claim, no product shot.",
+      "prompt": "<VISUAL SYSTEM PREAMBLE — identical in every prompt: ground colour, exactly one accent colour, mood adjectives, grain treatment, and an explicit 'no gradients, no additional colours'.> — A purely typographic advertisement on <ground colour>. Vertical 4:5 feed format. Layout, top to bottom: (1) a small all-caps eyebrow in <mono font>, letter-spacing 0.26em, in <accent colour>, reading exactly: '<EYEBROW>'. (2) A multi-line headline in <display font> at light weight, reading exactly: '<HEADLINE>', with '<KEY WORD>' set in italic <accent colour>. (3) A two-line supporting sentence in <body font>. (4) A solid <accent colour> button reading exactly '<CTA>'. (5) The wordmark bottom-left. Generous margins, large negative space."
+    },
+    {
+      "template_number": 2,
+      "template_name": "ad-single-stat",
+      "aspect_ratio": "1:1",
+      "needs_product_images": false,
+      "intended_use": "Retargeting. One number carries the whole frame.",
+      "prompt": "<SAME VISUAL SYSTEM PREAMBLE> — A purely typographic 1:1 advertisement, centred composition. (1) Small all-caps eyebrow in <mono font>, <accent colour>, reading exactly: '<EYEBROW>'. (2) A massively oversized numeral in <display font> italic reading exactly '<NUMBER>', filling the middle third of the frame. (3) A hairline rule. (4) One all-caps line in <mono font> reading exactly '<SUPPORT LINE>'. Nothing else in the frame."
+    }
+  ]
+}
